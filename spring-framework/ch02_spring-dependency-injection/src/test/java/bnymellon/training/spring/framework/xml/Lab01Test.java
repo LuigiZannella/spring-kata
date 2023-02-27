@@ -41,14 +41,14 @@ public class Lab01Test {
 
         // TODO: Add a bean definition with id=vehicleThroughConstructor in the src/test/resources/test-inject-with-xml.xml
         // UNCOMMENT BELOW CODE AND FIX IT.
-/*
+
         Vehicle vehicle = (Vehicle) context.getBean("vehicleThroughConstructor");
+        System.out.println(vehicle);
         assertEquals(
                 "2017 car",
                 vehicle.toString(),
                 "The vehicle should be 2017 car"
         );
-*/
     }
 
     @Test
@@ -73,14 +73,13 @@ public class Lab01Test {
         // TODO: Add a bean definition with id=vehicleThroughConstructorIndex in the src/test/resources/test-inject-with-xml.xml
         // TODO: Create a Vehicle with year = 2015 and type = bike.
         // UNCOMMENT BELOW CODE AND FIX IT.
-/*
+
         Vehicle vehicle = (Vehicle) context.getBean("vehicleThroughConstructorIndex");
         assertEquals(
                 "2015 bike",
                 vehicle.toString(),
                 "The vehicle should be 2015 bike"
         );
-*/
     }
 
     @Test
@@ -89,14 +88,14 @@ public class Lab01Test {
         // TODO: Add a bean definition with id=vehicleThroughSetter in the src/test/resources/test-inject-with-xml.xml
         // TODO: Create a Vehicle with year = 2014 and type = airplane.
         // UNCOMMENT BELOW CODE AND FIX IT.
-/*
+
         Vehicle vehicle = (Vehicle) context.getBean("vehicleThroughSetter");
         assertEquals(
                 "2014 airplane",
                 vehicle.toString(),
                 "The vehicle should be 2014 airplane"
         );
-*/
+
     }
 
 }
